@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.qianfeng.auction.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AuctionList</servlet-name>
+    <servlet-class>com.qianfeng.auction.servlet.AuctionList</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AuctionListByPage</servlet-name>
+    <servlet-class>com.qianfeng.auction.servlet.AuctionListByPage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AuctionAddServlet</servlet-name>
+    <servlet-class>com.qianfeng.auction.servlet.AuctionAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+     <servlet-name>AuctionDelServlet</servlet-name>
+     <servlet-class>com.qianfeng.auction.servlet.AuctionDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+   <servlet-name>AutionUpdateServlet</servlet-name>
+    <servlet-class>com.qianfeng.auction.servlet.AutionUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+     <servlet-name>AuctionUpdateByIdServlet</servlet-name>
+     <servlet-class>com.qianfeng.auction.servlet.AuctionUpdateByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+     <servlet-name>ValidatecodeServlet</servlet-name>
+     <servlet-class>com.qianfeng.auction.servlet.ValidatecodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+      <servlet-name>UploadServlet</servlet-name>
+      <servlet-class>com.qianfeng.auction.servlet.UploadServlet</servlet-class>
+  </servlet>
+ <servlet>
+     <servlet-name>ManagePage</servlet-name>
+     <servlet-class>com.qianfeng.auction.servlet.ManagePage</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>DelUserInfoServlet</servlet-name>
+  <servlet-class>com.qianfeng.auction.servlet.DelUserInfoServlet</servlet-class>
+ </servlet>
+  <servlet>
+    <servlet-name>UpdateUserInfoUI</servlet-name>
+    <servlet-class>com.qianfeng.auction.servlet.UpdateUserInfoUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditUserInfoServlet</servlet-name>
+    <servlet-class>com.qianfeng.auction.servlet.EditUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddUserUIServlet</servlet-name>
+    <servlet-class>com.qianfeng.auction.servlet.AddUserUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddUserServlet</servlet-name>
+    <servlet-class>com.qianfeng.auction.servlet.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RoleManage</servlet-name>
+    <servlet-class>com.qianfeng.auction.servlet.RoleManage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResourceManage</servlet-name>
+    <servlet-class>com.qianfeng.auction.servlet.ResourceManage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AuctionQuit</servlet-name>
+    <servlet-class>com.qianfeng.auction.servlet.AuctionQuit</servlet-class>
+  </servlet>
+  
+  
+ 
+ 
+ 
+ 
+  
+<servlet-mapping>
+    <servlet-name>AuctionQuit</servlet-name>
+    <url-pattern>/AuctionQuit</url-pattern>
+ </servlet-mapping>
+<servlet-mapping>
+ <servlet-name>DelUserInfoServlet</servlet-name>
+ <url-pattern>/delUserInfo</url-pattern>
+</servlet-mapping>
+ <servlet-mapping>
+    <servlet-name>ManagePage</servlet-name>
+    <url-pattern>/managePage</url-pattern>
+ </servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>UploadServlet</servlet-name>
+   <url-pattern>/uploadServlet</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>ValidatecodeServlet</servlet-name>
+  <url-pattern>/ValidatecodeServlet</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>AuctionUpdateByIdServlet</servlet-name>
+   <url-pattern>/AuctionUpdateByIdServlet</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>AutionUpdateServlet</servlet-name>
+    <url-pattern>/updateAutionByIdServlet</url-pattern>
+</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuctionDelServlet</servlet-name>
+    <url-pattern>/AuctionDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuctionList</servlet-name>
+    <url-pattern>/AuctionList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuctionListByPage</servlet-name>
+    <url-pattern>/AuctionListByPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuctionAddServlet</servlet-name>
+    <url-pattern>/AuctionAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUserInfoUI</servlet-name>
+    <url-pattern>/updateUserInfoUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditUserInfoServlet</servlet-name>
+    <url-pattern>/EditUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUserUIServlet</servlet-name>
+    <url-pattern>/addUserUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUserServlet</servlet-name>
+    <url-pattern>/addUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RoleManage</servlet-name>
+    <url-pattern>/roleManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResourceManage</servlet-name>
+    <url-pattern>/ResourceManage</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

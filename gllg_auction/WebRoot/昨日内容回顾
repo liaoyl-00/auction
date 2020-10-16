@@ -1,0 +1,9 @@
+表单的文件上传的功能
+        结合form表单的  input输入框的  file属性，   由此可得 表单类型必须是post提交方式
+       修改表单的属性      enctype="multipart/form-data"
+   导入jar包      Apache    fileupload  jar 包。      注意：fileupload 依赖了Apache  IOjar包 
+    获取表单解析器。   返回我们一个集合，包含了所有的表单元素  
+    判断：   普通输入框    还是  文件上传输入框，
+   
+
+
